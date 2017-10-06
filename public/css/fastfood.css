@@ -1,0 +1,75 @@
+/* author: paulo cesar hendges */
+/* Definições de Css do sistema */
+
+/* usar essa parada para fixar o footer no embaixo */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* cor da mensagem */
+.msg-retorno{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+/* cor layout */
+.color-default{
+    background-color: #cc290f !important;
+}
+
+.user-info{
+    background-color: #000 !important;
+}
+
+.hover-link:hover{
+    background-color: #cc290f !important;
+}
+
+#rodape{
+    bottom:0;
+    width:100%;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.margin-top-container {
+    margin-top: 20px !important;
+}
+.container-novo{
+    width: 80%;
+    margin: auto;
+}
+
+.legend-padding{
+    padding: 10px;
+}
+
+th {
+    color: #c13e31 !important;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.total-registros{
+    font-size: 12px !important;
+    vertical-align: sub;
+}
+
+/*   Responsividade do Sistema */
+
+@media screen and (max-width: 1175px) {
+    #logo-fastfood{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    #logo-fastfood{
+        display: inline !important;
+    }
+}
